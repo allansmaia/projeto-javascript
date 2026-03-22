@@ -18,6 +18,11 @@ function potencia(base, expoente) {
     return Math.pow(base, expoente);
 }
 
+function raiz(a, b) {
+  return a ** (1 / b);
+}
+
+
 console.log(somar(5, 3));
 console.log(subtrair(10, 4));
 console.log(multiplicar(3, 4));
